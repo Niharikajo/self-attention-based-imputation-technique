@@ -2,10 +2,10 @@
  ## :paperclip: Overview
 
 •	[`Modeling`](https://github.com/Niharikajo/self-attention-based-imputation-technique/tree/main/modeling) contains implementation of the following models: </br>
-	o	Saits (saits.py) </br>
-    o	Brits (brits.py) </br>
-    o	Mrrn (mrrn.py)  </br>
-    o	Transformer(transformer.py) </br>
+    o   SAITS [`SA_models.py`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/SA_models.py) </br>
+    o	BRITS [`brits.py`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/brits.py) </br>
+    o	MRNN [`mrrn.py`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/mrnn.py)  </br>
+    o	Transformer [`transformer.py`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/transformer.py) </br>
     
 •	Data Pre-processing steps are covered in Data-Preprocessing. </br>
     &ensp; All the datasets used are included in Datasets.
