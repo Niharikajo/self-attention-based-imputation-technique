@@ -7,10 +7,10 @@
     o	MRNN [`mrrn.py`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/mrnn.py)  </br>
     o	Transformer [`SA_models.py#L28`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/layers.py#L28) </br>
     
-•	Data Pre-processing steps are covered in Data-Preprocessing. </br>
-    &ensp; All the datasets used are included in Datasets.
+•	Data Pre-processing steps are covered in [`Data-Preprocessing`](https://github.com/Niharikajo/self-attention-based-imputation-technique/tree/main/Data_Preprocessing). </br>
+    &ensp; All the datasets used are included in [`Datasets`](https://github.com/Niharikajo/self-attention-based-imputation-technique/tree/main/Data_Preprocessing/Datasets).
     
-•	Configs includes configurations of different models.
+•	[`Configs`](https://github.com/Niharikajo/self-attention-based-imputation-technique/tree/main/configs) contains configurations of different models.
  
 **:round_pushpin:Code has been executed in Google Colaboratory.**
 
