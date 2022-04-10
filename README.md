@@ -1,7 +1,7 @@
 # Scalable-Imputation-Technique-for-Effective-Computation-of-Missing-Battery-Parameters
  ## :paperclip: Overview
 
-•	[`Modelling`](https://github.com/Niharikajo/self-attention-based-imputation-technique/tree/main/modeling) contains implementation of the following models: </br>
+•	[`Modeling`](https://github.com/Niharikajo/self-attention-based-imputation-technique/tree/main/modeling) contains implementation of the following models: </br>
 	o	Saits (saits.py) </br>
     o	Brits (brits.py) </br>
     o	Mrrn (mrrn.py)  </br>
