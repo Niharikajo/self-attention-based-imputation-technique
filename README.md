@@ -29,8 +29,8 @@ iii)	Model testing: ` CUDA_VISIBLE_DEVICES=0 python run_models.py --config_path 
 •	Download the code and unzip it. </br>
 •	Upload the code to google drive and mount the drive.  </br>
 •	First generate the required dataset (change the file paths of datasets and saving dirs in `gene_battery_dataset.py`, as it is may be different on personal computers).  </br>
-•	Select a model and Train it (:pushpin: Change the `[file_path]` , `[dataset]` as it is on your personal computer in :file_folder: `cofigs/Battery_SAITS_best.ini`).  </br>
-•	Test the model (:pushpin: before testing update the `model_saving_dir` , `Test_Result`  in :file_folder: `cofigs/Battery_SAITS_best.ini`).  </br>
+•	Select a model and Train it (:pushpin: Change the `[file_path]` , `[dataset]` as it is on your personal computer in </br> :file_folder: `cofigs/Battery_SAITS_best.ini`).  </br>
+•	Test the model (:pushpin: before testing update the `model_saving_dir` , `Test_Result`  in </br> :file_folder: `cofigs/Battery_SAITS_best.ini`).  </br>
 
 -----------------------------------------------------------------------------------------------------------------------------
 :round_pushpin: Results are saved in :file_folder: `NIPS_results/Battery_SAITS_best/Test_Result`.
