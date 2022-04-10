@@ -5,7 +5,7 @@
     o   SAITS [`SA_models.py`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/SA_models.py) </br>
     o	BRITS [`brits.py`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/brits.py) </br>
     o	MRNN [`mrrn.py`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/mrnn.py)  </br>
-    o	Transformer [`transformer.py`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/transformer.py) </br>
+    o	Transformer [`layers.py`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/layers.py) </br>
     
 •	Data Pre-processing steps are covered in Data-Preprocessing. </br>
     &ensp; All the datasets used are included in Datasets.
