@@ -12,7 +12,7 @@
     
 •	[`Configs`](https://github.com/Niharikajo/self-attention-based-imputation-technique/tree/main/configs) contains configurations of different models.
  
-**:round_pushpin:Code has been executed in Google Colaboratory.**
+**:round_pushpin:Code has been executed in Google Colaboratory.** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QSQ70DDeuKo0cKzIP6YOF7Hl8BBpsnyL#scrollTo=RVXApi9zT4q1)
 
  -------------------------------------------------------------------------------------------------------------------
 
