@@ -2,8 +2,7 @@
  ## :paperclip: Overview
 
 •	[`Modeling`](https://github.com/Niharikajo/self-attention-based-imputation-technique/tree/main/modeling) contains implementation of the following models: </br>
-    o   SAITS [`SA_models.py#L93`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/SA_models.py#L93) </br>
-    o	BRITS [`brits.py`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/brits.py) </br>
+    o   Self Attention Imputation [`SA_models.py#L93`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/SA_models.py#L93) </br>
     o	MRNN [`mrrn.py`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/mrnn.py)  </br>
     o	Transformer [`SA_models.py#L28`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/modeling/layers.py#L28) </br>
     
@@ -19,8 +18,8 @@
  ### :paperclip: The code excecution has 3 parts : </br>
  
  i)	Generating Dataset : ` python gene_battery_dataset.py ` </br>
-ii)	Model training:  ` CUDA_VISIBLE_DEVICES=0 python run_models.py --config_path configs/Battery_SAITS_best.ini ` </br>
-iii)	Model testing: ` CUDA_VISIBLE_DEVICES=0 python run_models.py --config_path configs/Battery_SAITS_best.ini --test_mode ` </br>
+ii)	Model training:  ` CUDA_VISIBLE_DEVICES=0 python run_models.py --config_path configs/Battery_Self-Attention_best.ini ` </br>
+iii)	Model testing: ` CUDA_VISIBLE_DEVICES=0 python run_models.py --config_path configs/Battery_Self-Attention_best.ini --test_mode ` </br>
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -33,4 +32,13 @@ iii)	Model testing: ` CUDA_VISIBLE_DEVICES=0 python run_models.py --config_path 
 •	Test the model (:pushpin: before testing update the `model_saving_dir` , `Test_Result`  in </br> :file_folder: [`cofigs/Battery_SAITS_best.ini`](https://github.com/Niharikajo/self-attention-based-imputation-technique/blob/main/configs/Battery_SAITS_best.ini).  </br>
 
 -----------------------------------------------------------------------------------------------------------------------------
-:round_pushpin: Results are saved in :file_folder: `NIPS_results/Battery_SAITS_best/Test_Result`.
+:round_pushpin: Results are saved in :file_folder: `NIPS_results/Battery_Self-Attention_best/Test_Result`.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+## Acknowledgments 
+We appreciate the following github repository a lot for their valuable code base </br>
+https://github.com/WenjieDu/SAITS
+
+Dataset source : Diao, W., Saxena, S., Pecht, M. Accelerated Cycle Life Testing and Capacity Degradation Modeling of LiCoO2 -graphite Cells. J. Power Sources 2019, 435, 226830. </br>
+https://web.calce.umd.edu/batteries/data.htm
