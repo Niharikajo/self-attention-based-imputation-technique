@@ -13,12 +13,12 @@ from Data_Preprocessing.data_processing_utils import window_truncate, random_mas
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate Battery dataset' )
-    parser.add_argument('--file_path', help='path of dataset file', type=str, default='Datasets/dataset4.csv')
+    parser.add_argument('--file_path', help='path of dataset file', type=str, default='Datasets/dataset1.csv')
     parser.add_argument('--artificial_missing_rate', help='artificially mask out additional values',
                         type=float, default=0.1)
     parser.add_argument('--seq_len', help='sequence length', type=int, default=96)
     parser.add_argument('--dataset_name', help='name of generated dataset, will be the name of saving dir', type=str,
-                        default='Battery_dataset4_saits_01masked')
+                        default='Battery_dataset1_Self-Attention_01masked')
     parser.add_argument('--saving_path', type=str, help='parent dir of generated dataset', default='../generated_datasets')
     args = parser.parse_args()
 
